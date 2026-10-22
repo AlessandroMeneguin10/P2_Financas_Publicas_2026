@@ -1,0 +1,10 @@
+data,arquivo,acao,motivo,fonte,estado
+2026-10-20,base_p1_transcrita_nao_validada.csv,Transcrição da tabela de receita e despesa da P1 para referência,Preservar ponto de partida sem substituir a base original,PDF/notebook P1 fornecido na conversa,feito com ressalva
+2026-10-20,README.md,Registro das fontes oficiais prioritárias e regras de análise,Preparar trilha de reprodução,STN/SICONFI; IBGE; FFA/EFV,feito
+2026-10-20,analise_p2.ipynb,Criação de estrutura de análise auditável,Separar dados de referência e dados validados,Material P1 e instruções P2,feito
+PENDENTE,dados fiscais municipais,Coletar e validar série oficial mais recente de dez anos completos,Atender à atualização de dados,SICONFI,pendente
+PENDENTE,deflator,Calcular fatores com índice oficial e ano-base explícito,Comparar valores reais,IBGE IPCA,pendente
+PENDENTE,dados Suíça,Extrair série fiscal oficial e metadados,Comparação internacional,FFA/EFV FS/GFS,pendente
+PENDENTE,artigo,Revisão crítica de pelo menos 80 artigos científicos distintos,Exigência expressa da P2,Periódicos científicos,pendente
+2026-10-20,Pesquisa bibliográfica,Criada matriz_literatura_candidata.csv e acrescentada síntese crítica inicial ao rascunho do artigo,Metadados identificados em fontes editoriais e revisão acadêmica; parte dos registros requer checagem primária e leitura integral,Não contabilizar a matriz como 80 artigos discutidos; continuar a revisão sistemática
+2026-10-20,Dados oficiais,Revisadas as páginas oficiais suíças e registrada distinção FS/GFS e status provisório/definitivo,Página oficial FFA/EFV; documentação SICONFI,Download bruto não executado neste ambiente devido a falha de resolução DNS; executar extrator em computador com internet

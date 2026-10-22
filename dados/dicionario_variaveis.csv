@@ -1,0 +1,11 @@
+variavel,definicao,unidade,fonte_prioritaria,periodo_cobertura,tratamento,estado
+ano,Ano do exercício fiscal,ano,SICONFI / EFV,últimos 10 anos completos,inteiro; manter ano original,pendente validação
+municipio,Nome do município brasileiro,texto,IBGE / SICONFI,Quixadá e Canindé,normalizar grafia sem perder identificador oficial,base P1 transcrita
+receita_total,Receita total realizada conforme conceito da fonte,R$ correntes,SICONFI DCA/RREO,últimos 10 anos completos,guardar valor bruto; deflacionar após escolher índice e ano-base,pendente validação
+despesa_total,Despesa total conforme conceito fiscal selecionado,R$ correntes,SICONFI DCA/RREO,últimos 10 anos completos,confirmar se empenhada/liquidada/paga e manter conceito consistente,pendente validação
+transferencias,Transferências intergovernamentais recebidas,R$ correntes,SICONFI,últimos 10 anos completos,documentar rubricas incluídas e evitar dupla contagem,pendente coleta
+receita_tributaria_propria,Receita tributária própria municipal,R$ correntes,SICONFI,últimos 10 anos completos,identificar impostos/taxas e consistência de classificação,pendente coleta
+populacao,População residente/estimada conforme fonte,pessoas,IBGE/SIDRA,ano disponível,registrar se censo ou estimativa e não interpolar sem justificativa,pendente coleta
+pib_municipal,Produto Interno Bruto dos Municípios,R$ correntes ou mil R$,IBGE/SIDRA,anos publicados,normalizar unidade e verificar deflator específico,pendente coleta
+ipca,Índice de preços ao consumidor amplo,índice ou %,IBGE/SIDRA,período necessário,explicitar cálculo do fator e mês/ano-base,pendente coleta
+receitas_despesas_suica,Agregados fiscais do nível de governo definido,CHF e/ou % PIB,FFA/EFV FS/GFS,últimos 10 anos publicados,priorizar conceitos harmonizados GFS e registrar revisões,pendente coleta
